@@ -108,7 +108,6 @@ public class BuggyControl : MonoBehaviour
 
         public bool showNormalGizmos = false;
         public Transform carSteer;
-        public HitGround[] hitGround;
 
         public List<Transform> cameraSwitchView;
 
@@ -139,19 +138,7 @@ public class BuggyControl : MonoBehaviour
 
     }
 
-    
 
-
-    [System.Serializable]
-    public class HitGround
-    {
-       
-        public string tag = "street";
-        public bool grounded = false;
-        public AudioClip brakeSound;
-        public AudioClip groundSound;
-        public Color brakeColor;
-    }
 
 
     ////////////////////////////////////////////// TouchMode (Control) ////////////////////////////////////////////////////////////////////
@@ -783,29 +770,6 @@ public class BuggyControl : MonoBehaviour
                     bool WGrounded = false;
 
 
-                    for (int i = 0; i < carSetting.hitGround.Length; i++)
-                    {
-
-                        if (hit.collider.CompareTag(carSetting.hitGround[i].tag))
-                        {
-                            WGrounded = carSetting.hitGround[i].grounded;
-
-                            if ((brake || Mathf.Abs(hit.sidewaysSlip) > 0.5f) && speed > 1)
-                            {
-                                Particle[currentWheel].GetComponent<AudioSource>().clip = carSetting.hitGround[i].brakeSound;
-                            }
-                            else if (Particle[currentWheel].GetComponent<AudioSource>().clip != carSetting.hitGround[i].groundSound && !Particle[currentWheel].GetComponent<AudioSource>().isPlaying)
-                            {
-
-                                Particle[currentWheel].GetComponent<AudioSource>().clip = carSetting.hitGround[i].groundSound;
-                            }
-
-                            Particle[currentWheel].GetComponent<ParticleSystem>().startColor = carSetting.hitGround[i].brakeColor;
-
-                        }
-
-
-                    }
 
 
                     if (WGrounded && speed > 5 && !brake)
