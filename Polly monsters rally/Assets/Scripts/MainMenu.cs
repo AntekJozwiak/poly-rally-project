@@ -8,6 +8,8 @@ public class MainMenu : MonoBehaviour
     public void Rally()
     {
         SceneManager.LoadScene("Game");
+        Destroy(GameObject.Find("Audio Source"));
+
     }
 
     public void Settings()
@@ -26,9 +28,13 @@ public class MainMenu : MonoBehaviour
     public void DuneDash()
     {
         SceneManager.LoadScene("Game Dune");
+        Destroy(GameObject.Find("Audio Source"));
+
     }
     public void Space()
     {
         SceneManager.LoadScene("Space");
+        Destroy(GameObject.Find("Audio Source"));
+
     }
 }
