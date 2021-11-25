@@ -25891,6 +25891,7 @@ GameObject:
   - component: {fileID: 1624246914009685730}
   - component: {fileID: 1624246914024136266}
   - component: {fileID: 1624246914024138310}
+  - component: {fileID: 1624246914012830643}
   m_Layer: 0
   m_Name: Buggy_1
   m_TagString: Untagged
@@ -25898,6 +25899,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!95 &1624246914012830643
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624246914012830642}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 983d9360e86f69146be9c77baea178f3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1624246914012832898
 GameObject:
   m_ObjectHideFlags: 0
@@ -26916,8 +26936,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624246914012830642}
-  m_LocalRotation: {x: 0, y: 0.9976843, z: -0, w: -0.068015225}
-  m_LocalPosition: {x: 455.36, y: 6.93, z: 942.33}
+  m_LocalRotation: {x: -0.04031189, y: 0.995353, z: -0.059648145, w: -0.06394882}
+  m_LocalPosition: {x: 453.23, y: 14.6, z: 921.95}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1720445568}
@@ -26928,7 +26948,7 @@ Transform:
   - {fileID: 741539750}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 187.8, z: 0}
+  m_LocalEulerAnglesHint: {x: 7.117, y: 187.091, z: -4.197}
 --- !u!4 &1624246914013150420
 Transform:
   m_ObjectHideFlags: 0
