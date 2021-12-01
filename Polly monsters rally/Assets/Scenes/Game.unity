@@ -444,7 +444,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 6d84b5bb6361e0d4eb3e3c45524cac80, type: 3}
   turnController: {fileID: 924222159}
   turnName: left wide
 --- !u!65 &40919616
@@ -522,7 +522,7 @@ Transform:
   m_LocalScale: {x: 31.645283, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 29
   m_LocalEulerAnglesHint: {x: 0.076, y: -220.896, z: 0.011}
 --- !u!1 &44693403
 GameObject:
@@ -1115,7 +1115,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 44
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0.397, y: -355.439, z: 1.053}
 --- !u!1 &143686047
 GameObject:
@@ -1286,7 +1286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: d55fce4ba3f019d49826f0363b58035f, type: 3}
   turnController: {fileID: 924222159}
   turnName: left wide
 --- !u!65 &148279201
@@ -1364,7 +1364,7 @@ Transform:
   m_LocalScale: {x: 103.73267, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 26
+  m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0.069, y: -255.267, z: -0.034}
 --- !u!1 &170150756
 GameObject:
@@ -1724,7 +1724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 4d278971d2dcedc48aa5999785478537, type: 3}
   turnController: {fileID: 924222159}
   turnName: 20 left
 --- !u!65 &213217880
@@ -1802,7 +1802,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 41
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: -0.486, y: -309.225, z: 1.015}
 --- !u!1 &216722546
 GameObject:
@@ -1933,7 +1933,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 6f1107a36cc08404fb9e4c9abb621540, type: 3}
   turnController: {fileID: 924222159}
   turnName: ramp
 --- !u!65 &223974228
@@ -2007,11 +2007,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 223974226}
   m_LocalRotation: {x: 0.00020912966, y: -0.39062577, z: 0.00063856435, w: -0.92054933}
-  m_LocalPosition: {x: 586.1, y: 20.09, z: -105.6}
+  m_LocalPosition: {x: 568, y: 20, z: -123}
   m_LocalScale: {x: 68.4171, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 0.007, y: -314.013, z: -0.077}
 --- !u!1 &224883950
 GameObject:
@@ -2142,7 +2142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &235542878
@@ -2220,7 +2220,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 46
+  m_RootOrder: 45
   m_LocalEulerAnglesHint: {x: 1.024, y: -449.376, z: -0.468}
 --- !u!1 &236635834
 GameObject:
@@ -3045,7 +3045,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: -0.958, y: -276.475, z: 0.591}
 --- !u!1 &356718503
 GameObject:
@@ -3080,7 +3080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 39b355cdc7b1d2d42aaade9b32cd4e14, type: 3}
   turnController: {fileID: 924222159}
   turnName: hold left
 --- !u!65 &356718505
@@ -3158,7 +3158,7 @@ Transform:
   m_LocalScale: {x: 68.4171, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 32
   m_LocalEulerAnglesHint: {x: -0.024, y: -336.993, z: -0.073}
 --- !u!1 &389054145
 GameObject:
@@ -3673,7 +3673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ba7d573fe0ada4f43a26282922932c6b, type: 3}
   turnController: {fileID: 924222159}
   turnName: 40 left mid
 --- !u!65 &462707103
@@ -3751,7 +3751,7 @@ Transform:
   m_LocalScale: {x: 180.8161, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: -0.064, y: -15.595, z: -0.042}
 --- !u!1 &535041882
 GameObject:
@@ -3786,7 +3786,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &535041884
@@ -3864,7 +3864,7 @@ Transform:
   m_LocalScale: {x: 140.86841, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 23
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0.049, y: -178.596, z: 0.059}
 --- !u!1 &539401375
 GameObject:
@@ -4091,7 +4091,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 41353e51b5a771d43b1d400ddac48d0d, type: 3}
   turnController: {fileID: 924222159}
   turnName: 90 left mid
 --- !u!65 &585925393
@@ -4169,7 +4169,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 45
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0.484, y: -360.249, z: 1.016}
 --- !u!1 &617569715
 GameObject:
@@ -4300,7 +4300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 2cf963dd5a87c614d88eb0c6d3483168, type: 3}
   turnController: {fileID: 924222159}
   turnName: 60 left mid
 --- !u!65 &618717349
@@ -4378,7 +4378,7 @@ Transform:
   m_LocalScale: {x: 180.8161, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: -0.005, y: 37.208, z: -0.077}
 --- !u!1 &631143276
 GameObject:
@@ -4667,7 +4667,7 @@ Transform:
   m_LocalScale: {x: 68.4171, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 31
   m_LocalEulerAnglesHint: {x: 0.007, y: -314.013, z: -0.077}
 --- !u!1 &667124767
 GameObject:
@@ -4990,7 +4990,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &685886695
@@ -5068,7 +5068,7 @@ Transform:
   m_LocalScale: {x: 180.8161, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: -0.076, y: -57.448, z: 0.011}
 --- !u!1 &705507993
 GameObject:
@@ -6110,119 +6110,6 @@ Transform:
   m_Father: {fileID: 1492204910}
   m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &882324839
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 882324844}
-  - component: {fileID: 882324843}
-  - component: {fileID: 882324842}
-  - component: {fileID: 882324841}
-  - component: {fileID: 882324840}
-  m_Layer: 0
-  m_Name: TurnTrigger (3)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &882324840
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882324839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8f8e2e02b28acf47a182d3e01a43542, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  navigator: {fileID: 1720445567}
-  call: {fileID: 8300000, guid: 1eea2d7717458ee40871d9ea02562666, type: 3}
-  turnController: {fileID: 924222159}
-  turnName: 20 right
---- !u!65 &882324841
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882324839}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &882324842
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882324839}
-  m_Enabled: 0
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &882324843
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882324839}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &882324844
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 882324839}
-  m_LocalRotation: {x: -0, y: 0.08480207, z: -0, w: 0.9963978}
-  m_LocalPosition: {x: 447.82, y: 12.14, z: 929.07}
-  m_LocalScale: {x: 274.63373, y: 3.7046, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 9.729, z: 0}
 --- !u!1 &893399469
 GameObject:
   m_ObjectHideFlags: 0
@@ -6256,7 +6143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ee007ff364185f84f937d36838cb475b, type: 3}
   turnController: {fileID: 924222159}
   turnName: 70 right
 --- !u!65 &893399471
@@ -6334,7 +6221,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 37
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: -0.02, y: -333.787, z: 1.126}
 --- !u!1 &924222159
 GameObject:
@@ -6610,7 +6497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 8300000, guid: 1eea2d7717458ee40871d9ea02562666, type: 3}
+  call: {fileID: 8300000, guid: eef8a426c06ae9940a1ae3a629ccf2d2, type: 3}
   turnController: {fileID: 924222159}
   turnName: 20 right
 --- !u!1 &936318672
@@ -7403,7 +7290,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: c23f26244dd1060468748dff81dc5c9d, type: 3}
   turnController: {fileID: 924222159}
   turnName: chequered-flag
 --- !u!65 &1064168755
@@ -7481,7 +7368,7 @@ Transform:
   m_LocalScale: {x: 26.126131, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 47
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 1.024, y: -449.376, z: -0.468}
 --- !u!1 &1081520497
 GameObject:
@@ -7708,7 +7595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 41353e51b5a771d43b1d400ddac48d0d, type: 3}
   turnController: {fileID: 924222159}
   turnName: 90 left mid
 --- !u!65 &1114040582
@@ -7786,7 +7673,7 @@ Transform:
   m_LocalScale: {x: 31.645283, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 29
+  m_RootOrder: 28
   m_LocalEulerAnglesHint: {x: 0.077, y: -223.053, z: 0.008}
 --- !u!1 &1115308156
 GameObject:
@@ -7917,7 +7804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: c4030d651c609b140909d8e2430ed0b6, type: 3}
   turnController: {fileID: 924222159}
   turnName: uneven road
 --- !u!65 &1136831005
@@ -7995,7 +7882,7 @@ Transform:
   m_LocalScale: {x: 103.73267, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 25
+  m_RootOrder: 24
   m_LocalEulerAnglesHint: {x: 0.069, y: -255.267, z: -0.034}
 --- !u!1 &1162680083
 GameObject:
@@ -8030,7 +7917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 41353e51b5a771d43b1d400ddac48d0d, type: 3}
   turnController: {fileID: 924222159}
   turnName: 90 left mid
 --- !u!65 &1162680085
@@ -8108,7 +7995,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: -1.069, y: -226.49, z: -0.354}
 --- !u!1 &1196256057
 GameObject:
@@ -9773,7 +9660,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 1d9508306bee8c34b96e76c72806f434, type: 3}
   turnController: {fileID: 924222159}
   turnName: 90 left sharp
 --- !u!65 &1413873803
@@ -9851,7 +9738,7 @@ Transform:
   m_LocalScale: {x: 140.86841, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 22
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: -0.048, y: -100.491, z: 0.06}
 --- !u!1 &1416559385
 GameObject:
@@ -9982,7 +9869,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: affcd7032ba9ceb45b69923bcbdf2425, type: 3}
   turnController: {fileID: 924222159}
   turnName: Wide right med
 --- !u!65 &1422111247
@@ -10060,7 +9947,7 @@ Transform:
   m_LocalScale: {x: 180.8161, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: -0.076, y: -58.704, z: 0.013}
 --- !u!1 &1427333477
 GameObject:
@@ -11186,7 +11073,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 42
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: -0.272, y: -320.838, z: 1.093}
 --- !u!1 &1517557343
 GameObject:
@@ -11317,7 +11204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 3ea33e232a4a5fd4887cf7061b9eb520, type: 3}
   turnController: {fileID: 924222159}
   turnName: MED Straight
 --- !u!65 &1528485916
@@ -11395,7 +11282,7 @@ Transform:
   m_LocalScale: {x: 38.363876, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: -0.039, y: -349.026, z: -0.067}
 --- !u!1 &1553616501
 GameObject:
@@ -11526,7 +11413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: b67d84a953e86c94baa61d7a666609eb, type: 3}
   turnController: {fileID: 924222159}
   turnName: road split
 --- !u!65 &1569875382
@@ -11604,7 +11491,7 @@ Transform:
   m_LocalScale: {x: 103.73267, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0.035, y: -165.952, z: 0.069}
 --- !u!1 &1576699828
 GameObject:
@@ -11735,7 +11622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: a07c5d6714e090049a0e5a6c34ccd824, type: 3}
   turnController: {fileID: 924222159}
   turnName: 30 right mid
 --- !u!65 &1577749885
@@ -11813,7 +11700,7 @@ Transform:
   m_LocalScale: {x: 31.645283, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 28
+  m_RootOrder: 27
   m_LocalEulerAnglesHint: {x: 0.069, y: -255.539, z: -0.035}
 --- !u!1 &1583300222
 GameObject:
@@ -11926,7 +11813,7 @@ Transform:
   m_LocalScale: {x: 274.63373, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 33.547, z: 0}
 --- !u!1 &1586990669
 GameObject:
@@ -12441,7 +12328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 41353e51b5a771d43b1d400ddac48d0d, type: 3}
   turnController: {fileID: 924222159}
   turnName: 90 left mid
 --- !u!65 &1622335040
@@ -12519,7 +12406,7 @@ Transform:
   m_LocalScale: {x: 140.86841, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 24
+  m_RootOrder: 23
   m_LocalEulerAnglesHint: {x: 0.045, y: -174.29, z: 0.063}
 --- !u!1 &1628374526
 GameObject:
@@ -13071,7 +12958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &1653042287
@@ -13376,7 +13263,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: f9f45188fb517a14d9fa5d68002ced14, type: 3}
   turnController: {fileID: 924222159}
   turnName: 40 right
 --- !u!65 &1687742249
@@ -13454,7 +13341,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 39
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: -0.958, y: -276.475, z: 0.591}
 --- !u!1 &1698170783
 GameObject:
@@ -14075,7 +13962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &1808353221
@@ -14153,7 +14040,7 @@ Transform:
   m_LocalScale: {x: 38.363876, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: -0.023, y: -336.312, z: -0.073}
 --- !u!1 &1840906783
 GameObject:
@@ -14188,7 +14075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &1840906785
@@ -14266,7 +14153,7 @@ Transform:
   m_LocalScale: {x: 45.805973, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: -0.028, y: -340.187, z: -0.072}
 --- !u!1 &1847006928
 GameObject:
@@ -14748,7 +14635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: ab2e18c689d35d84b816389cdafe3c0e, type: 3}
   turnController: {fileID: 924222159}
   turnName: MAX Straight
 --- !u!65 &1875778597
@@ -14826,7 +14713,7 @@ Transform:
   m_LocalScale: {x: 274.63373, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: -20.218, z: 0}
 --- !u!1 &1884310274
 GameObject:
@@ -14861,7 +14748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: 3ea33e232a4a5fd4887cf7061b9eb520, type: 3}
   turnController: {fileID: 924222159}
   turnName: MED Straight
 --- !u!65 &1884310276
@@ -14939,7 +14826,7 @@ Transform:
   m_LocalScale: {x: 180.8161, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: -0.064, y: -15.595, z: -0.042}
 --- !u!1 &1903805769
 GameObject:
@@ -15358,7 +15245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: b3639d42f42697b409744783feedae42, type: 3}
   turnController: {fileID: 924222159}
   turnName: 30 left
 --- !u!65 &1975114302
@@ -15436,7 +15323,7 @@ Transform:
   m_LocalScale: {x: 66.67891, y: 6.933979, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 43
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: -0.272, y: -320.838, z: 1.093}
 --- !u!1 &1999460251
 GameObject:
@@ -15707,7 +15594,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   navigator: {fileID: 1720445567}
-  call: {fileID: 0}
+  call: {fileID: 8300000, guid: aa6c4e6fda477484389076ae6293d100, type: 3}
   turnController: {fileID: 924222159}
   turnName: 60 right
 --- !u!65 &2029307037
@@ -15785,7 +15672,7 @@ Transform:
   m_LocalScale: {x: 274.63373, y: 5.470595, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: -20.218, z: 0}
 --- !u!1 &2054252697
 GameObject:
@@ -28046,7 +27933,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624246914012830642}
   m_LocalRotation: {x: -0.04031189, y: 0.995353, z: -0.059648145, w: -0.06394882}
-  m_LocalPosition: {x: 453.23, y: 14.6, z: 921.95}
+  m_LocalPosition: {x: 457.1, y: 10.8, z: 939.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1720445568}
