@@ -8,6 +8,12 @@ public class turnTrigger : MonoBehaviour
     public AudioClip call;
     public GameObject turnController;
     public string turnName;
+   
+    void Update()
+    {
+        navigator = GameObject.FindGameObjectsWithTag("Navigator")[0].GetComponent<AudioSource>();
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")

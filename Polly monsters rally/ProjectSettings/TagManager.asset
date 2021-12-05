@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Music
+  - Starting line
+  - buggy1
+  - buggy2
+  - Navigator
   layers:
   - Default
   - TransparentFX
