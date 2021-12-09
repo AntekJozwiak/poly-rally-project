@@ -37,4 +37,8 @@ public class MainMenu : MonoBehaviour
         Destroy(GameObject.Find("Audio Source"));
 
     }
+    public void RallyPro()
+    {
+        SceneManager.LoadScene("RallyPro");
+    }
 }
